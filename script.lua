@@ -59,7 +59,7 @@ local function checkdir()
     end
 end
 
-local guiname = "MeepCracked"
+local guiname = "Styx Meepcity"
 
 if identifyexecutor then
     guiname = guiname .. " - " .. identifyexecutor()
@@ -89,7 +89,7 @@ local ServerDWindow = library:AddWindow("Server Destroying", WindowOptions)
 local AvatarWindow = library:AddWindow("Avatar", WindowOptions)
 
 local Welcome = Window:AddTab("Welcome")
-Welcome:AddLabel("Thank you for using MeepCracked.")
+Welcome:AddLabel("Thank you for using Styx Meepcity Script!.")
 Welcome:AddButton("Join Our Discord Server",function()
     local Settings = {
         InviteCode = "yYYPJ5fu9Z" --add your invite code here (without the "https://discord.gg/" part)
